@@ -25,4 +25,8 @@ rails s -b $IP -p $PORT
  --deploy
  git push heroku
  
+ git remote rm heroku 
+ git@github.com:kentka11/toy.git
  
+ git remote add origin git@github.com:kentka11/shukatsupacker_app.git
+ git remote rm git@heroku.com/secret-coast-24664.git
